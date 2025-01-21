@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Chang</title>
+
+    <!-- Import FontAwesome CDN for icons and logos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!-- Reference the css file we created -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+
+        <a href="#" class="logo"><span>Nicholas Chang</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <!-- <li>
+                <a href="#experience">Experience</a>
+            </li> -->
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+         <button class="visit-btn" onclick="window.open('https://github.com/nchxng', '_block')">Visit Github</button>
+    </header>
+
+    <!-- Main -->
+    <section id="main" class="main">
+
+        <div class="main-container">
+
+            <img src="headshot.png" alt="">
+
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Nicholas Chang</h1>
+                    <span>Computer Science Student</span>
+                </div>
+
+                <div class="btn-group">
+                    <a href="#contact" class="btn">Contact</a>
+                </div>
+
+                <div class="socials">
+                    <i class="fa-brands fa-github" onclick="window.open('https://github.com/nchxng','_blank')"></i>
+                    <i class="fa-brands fa-linkedin" onclick="window.open('https://www.linkedin.com/in/nicholas8chang/','_blank')"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about" >
+        <h2 class="section-title">About Me</h2>
+        <div class = "about-card ">
+            <p>
+                I am an enthusiastic and committed Computer Science student with a deep passion for Machine Learning, AI, and Fullstack Development. Currently in my third year at Wilfrid Laurier University, I am actively seeking internship opportunities for Winter and/or Summer 2025. Through a variety of hands-on projects, I have honed my skills in programming, problem-solving, and system design. I thrive on tackling complex challenges and am always looking to expand my knowledge by exploring new technologies and methodologies. I’m eager to contribute to dynamic teams and create impactful solutions. Feel Free to connect with me via the contact page or reach out on LinkedIn.
+            </p>
+        </div>
+    </section>
+
+    <!--
+    <section id="experience" class="experience">
+
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-info">
+
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Frontend Development</span>
+                    <h3>5 Years</h3>
+                    <p>hello this is my experience at this company i did this</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-file-code"></i>
+                    <span>Graphic Design</span>
+                    <h3>5 Years</h3>
+                    <p>hello this is my experience at this company i did this</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop"></i>
+                    <span>Backend Development</span>
+                    <h3>5 Years</h3>
+                    <p>hello this is my experience at this company i did this</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-list"></i>
+                    <span>Web Development</span>
+                    <h3>5 Years</h3>
+                    <p>hello this is my experience at this company i did this</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="project-1.png" alt="">
+                <h3>AI Chatbot Application</h3>
+                <p>
+                    The AI Chatbot Application uses natural language processing and machine learning to deliver accurate, context-aware responses through features like tokenization, lemmatization, and intent classification, ensuring scalability and seamless integration.
+                </p>
+                <div class="btn-group">
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="project-2.png" alt="">
+                <h3>Movie Recommender System</h3>
+                <p>
+                    The Movie Recommender System uses Python and LightFM to deliver personalized movie suggestions through hybrid collaborative and content-based filtering.
+                </p>
+                <div class="btn-group">
+                    <div class="btn" onclick="window.open('https://github.com/nchxng/movie-recommender-system', '_block')">Github Repo</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="project-3.png" alt="">
+                <h3>Volleyball Nations League Database</h3>
+                <p>
+                    The Volleyball Nations League Database is a normalized system with six tables to manage players, matches, standings, and countries, ensuring data integrity through advanced querying and triggers.
+                </p>
+                <div class="btn-group">
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-box">
+
+            <div class="email-btn" onclick="location.href='mailto:nicholas8chang@gmail.com'">
+                <i class="fa-regular fa-envelope"></i>
+                nicholas8chang@gmail.com
+            </div>
+
+            <i class="fa-brands fa-github" onclick="window.open('https://github.com/nchxng','_blank')"></i>
+            <i class="fa-brands fa-linkedin" onclick="window.open('https://www.linkedin.com/in/nicholas8chang/','_blank')"></i>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li>
+                <a href="#main">About</a>
+            </li>
+
+            <!-- <li>
+                <a href="#experience">Experience</a>
+            </li> -->
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">@ All Rights Reserved | Nicholas Chang</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
